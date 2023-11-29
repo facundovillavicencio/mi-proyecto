@@ -1,0 +1,162 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+/*body*/
+body{
+    background-color: #1a1c2b;
+    color: white;
+  }
+
+
+
+
+  /*menu*/
+  
+  /*menu search*/
+  .btn-outline-success{
+    --bs-btn-color: black;
+    --bs-btn-hover-bg: #5599ff;
+    --bs-btn-border-color:#5599ff;
+  }
+  
+  /*Texto lo pedis lo creamos*/
+  #principal .card-body{
+  text-align: center;
+  }
+  
+
+
+  /*Botones contacto home*/
+  #section-contacto{
+    padding: 50px;
+  }
+  section .boton-contacto{
+      padding: 50px;
+      display: flex;
+      flex-direction: row;
+      justify-content:space-evenly;
+  }
+  
+  section .boton-contacto button{
+    background-color: white;
+    color: black;
+  }
+  section .boton-contacto button:hover{
+    background-color: #5599ff;
+    color: black;
+  }
+  
+
+
+
+  /*fotos home*/
+  
+  .fotos-home{
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px; 
+      text-align: center;
+      margin: 10px;
+    }
+    
+    .foto {
+      width: 100%; /* La foto ocupe todo el ancho disponible */
+    }
+    
+    .foto img {
+      max-width: 100%; /* Asegura que la imagen no se desborde del contenedor */
+      height: auto; /* Mantiene la proporción de la imagen */
+    }
+
+
+
+
+/*Publicidad contacto*/
+#publicidad{
+    background-color: white;
+    color: #0c0d16;
+  }
+  .contenido-publicidad{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 100px;
+  }
+  #publicidad .contenido-publicidad img{
+    width: 50px;
+  }
+  .contenido-publicidad h2{
+    padding: 10px;
+  }
+  
+
+
+  /*footer*/
+  #footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    background-color: white;
+    color: #0c0d16;
+  }
+  
+  #footer div {
+    display: flex;
+    align-items: center;
+  }
+  
+  #footer a {
+    margin: 0 10px; /* Ajusta el margen entre los íconos según tus necesidades */
+    text-decoration: none;
+  }
+  
+  footer img{
+      width: 25px;
+  }  
+
+
+
+  /* page impresion*/
+  .impresion-titulo{
+    margin: 50px;
+  }
+  .impresion-titulo h5{
+    text-align: center;
+  }
+
+.creativo h2{
+    text-align: center;
+    padding: 50px;
+}
+
+.card-group .card img{
+    width: 100px;
+    height: auto;
+    margin: auto;
+}
+
+.card-group .card{
+    margin: 10px;
+}
+
+
+#check .card-group .card{
+    background-color: #1a1c2b;
+    color: white;
+}
+
+#check .card-group{
+    background-color: #1a1c2b;
+}
+
+
+
+.video {
+    text-align: center;
+    margin-top: 20px; /* Espaciado superior según sea necesario */
+}
