@@ -176,3 +176,11 @@ body{
     text-align: center;
     margin-top: 20px; /* Espaciado superior según sea necesario */
 }
+
+/*page impresoras*/
+.principal-impresora{
+  margin: 50px;
+}
+.principal-impresora h5{
+  text-align: center;
+}
