@@ -50,27 +50,31 @@ body{
     color: black;
   }
   
-
-
-
   /*fotos home*/
-  
+
+
   .fotos-home{
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      gap: 20px; 
-      text-align: center;
-      margin: 10px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px; 
+    text-align: center;
+    margin: 10px;
+  }
+  
+  .foto {
+    width: 100%; /* La foto ocupe todo el ancho disponible */
+  }
+  
+  .foto img {
+    max-width: 100%; /* Asegura que la imagen no se desborde del contenedor */
+    height: auto; /* Mantiene la proporción de la imagen */
+  }
+
+  @media (max-width: 768px) {
+    .fotos-home {
+      grid-template-columns: 1fr; /* Cambia a una sola columna en pantallas más pequeñas */
     }
-    
-    .foto {
-      width: 100%; /* La foto ocupe todo el ancho disponible */
-    }
-    
-    .foto img {
-      max-width: 100%; /* Asegura que la imagen no se desborde del contenedor */
-      height: auto; /* Mantiene la proporción de la imagen */
-    }
+  }
 
 
 
@@ -105,6 +109,18 @@ body{
     color: #0c0d16;
   }
   
+  #footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px; /* Ajusta el padding según tus necesidades */
+  }
+  
+  #footer p {
+    margin: 0;
+  }
+  
   #footer div {
     display: flex;
     align-items: center;
@@ -115,10 +131,10 @@ body{
     text-decoration: none;
   }
   
-  footer img{
-      width: 25px;
-  }  
-
+  footer img {
+    width: 25px;
+  }
+  
 
 
   /* page impresion*/
