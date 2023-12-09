@@ -46,30 +46,103 @@
             </div>
           </nav>
     </header>
-    <main class="formulario">
-        <form action="">
-            <label for="nombre">Nombre y Apellido</label>
-            <input type="text" id="nombre">
-            <label for="mail">Email</label>
-            <input type="email" id="mail">
-            <label for="numero">Telefono</label>
-            <input type="number" id="numero">
-            <label for="consulta">Consulta</label>
-            <textarea name="" id="consulta" cols="30" rows="10" placeholder="Escribi tu consulta"></textarea>
-            <label for="adjunto">Adjuntar</label>
-            <input type="file" id="adjunto">
-            <input type="submit" value="enviar">
-        </form>
-
-    </main>
-    <footer id="footer">
-        <p>PITER 3D</p>
-        <p>&copy;2023</p>
-        <div>
-            <a href="https://www.instagram.com/"target=”_blank”><img src="../imagines/instagram.png" alt=""></a>
-            <a href="https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&ifkv=AVQVeyyDl43yELTBuhj7my0pomkf_s4heVMk5fPJGXA2DNXKqeRVvbTA5lmAR99drM3U0PYmOCkcUw&rip=1&sacu=1&service=mail&flowName=GlifWebSignIn&flowEntry=ServiceLogin&dsh=S-1861993122%3A1698869009722585&theme=glif"target=”_blank”><img src="../imagines/correo-electronico.png" alt=""></a>
+    <div class="card text-center">
+      <div class="card-body">
+        <h5 class="card-title">¡Conectate con nosotros!</h5>
+        <p class="card-text">Transformamos preguntas en soluciones, ¡Descúbrelo!</p>
+        <a href="https://web.whatsapp.com/"target=”_blank” class="btn btn-primary">Comunica tus ideas al instante</a>
+      </div>
+    </div>
+      <div class="container mt-5">
+        <div class="row">
+            <!-- Mapa -->
+            <div class="col-lg-6 text-center">
+                <h2>Ubicación</h2>
+                <div class="embed-responsive embed-responsive-16by9 custom-map-container mx-auto">
+                  <iframe class="embed-responsive-item" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6289.465614892767!2d-57.56255437268307!3d-37.98336441714146!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9584d95af07ebd5d%3A0xa3286e133b7ab2e3!2sItalia%20%26%20Avenida%20Libertad%2C%20Mar%20del%20Plata%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1700961676858!5m2!1ses-419!2sar" width="100%" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+              </div>
+            </div>
+    
+            <!-- Horario -->
+            <div class="col-lg-6 text-center">
+                <h2>Horario de Apertura</h2>
+                <p>Lunes a Viernes: 9:00 AM - 17:00 PM</p>
+                <p>Sábado: 10:00 AM - 14:00 PM</p>
+                <p>Domingo: Cerrado</p>
+            </div>
         </div>
-    </footer>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <hr class="my-4">
+        </div>
+      </div>
+    </div>
+    <div class="container titulo-formulario text-center">
+      <h2 class="mt-5 mb-4">Empieza el viaje: Llena el formulario y da vida a tus ideas</h2>
+    </div>
+  
+    <main class="formulario">
+      <form class="row g-3 ">
+        <div class="col-md-4">
+          <label for="validationDefault01" class="form-label">Nombre</label>
+          <input type="text" class="form-control" id="validationDefault01" value="" required>
+        </div>
+        <div class="col-md-4">
+          <label for="validationDefault02" class="form-label">Apellido</label>
+          <input type="text" class="form-control" id="validationDefault02" value="" required>
+        </div>
+        <div class="col-md-6">
+          <label for="validationDefault03" class="form-label">Provincia</label>
+          <input type="text" class="form-control" id="validationDefault03" required>
+        </div>
+        <div class="col-md-3">
+          <label for="validationDefault05" class="form-label">Código postal</label>
+          <input type="text" class="form-control" id="validationDefault05" required>
+        </div>
+        <select class="form-select" aria-label="Default select example">
+          <option selected>Información sobre</option>
+          <option value="1">Funkos</option>
+          <option value="2">Mates</option>
+          <option value="3">Figuras</option>
+          <option value="4">Diseño personalizado</option>
+          <option value="5">Otro</option>
+        </select>
+        <div class="mb-3">
+          <label for="exampleFormControlInput1" class="form-label">Email</label>
+          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@gmail.com">
+        </div>
+        <div class="mb-3">
+          <label for="exampleFormControlTextarea1" class="form-label">Comentario</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+        <div class="mb-3">
+          <label for="formFile" class="form-label">Cargar archivo</label>
+          <input class="form-control" type="file" id="formFile">
+        </div>
+        <div class="col-12">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
+            <label class="form-check-label" for="invalidCheck2">
+              Acepto términos y condiciones
+            </label>
+          </div>
+        </div>
+        <div class="col-12">
+          <button class="btn btn-primary" type="submit">Enviar</button>
+        </div>
+      </form>
+    </main>
+  <footer id="footer">
+    <p>PITER 3D</p>
+    <p>&copy;2023</p>
+    <div>
+        <a href="https://www.instagram.com/"target=”_blank”><img src="../imagines/instagram.png" alt=""></a>
+        <a href="https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&ifkv=AVQVeyyDl43yELTBuhj7my0pomkf_s4heVMk5fPJGXA2DNXKqeRVvbTA5lmAR99drM3U0PYmOCkcUw&rip=1&sacu=1&service=mail&flowName=GlifWebSignIn&flowEntry=ServiceLogin&dsh=S-1861993122%3A1698869009722585&theme=glif"target=”_blank”><img src="../imagines/correo-electronico.png" alt=""></a>
+    </div>
+</footer>
+   
     
 </body>
 </html>
