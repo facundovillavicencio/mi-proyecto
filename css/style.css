@@ -23,7 +23,7 @@ body{
     --bs-btn-border-color:#5599ff;
   }
   
-  /*Texto lo pedis lo creamos*/
+  /*Titulo de tu imaginacion a la realidad*/
   #principal .card-body{
   text-align: center;
   }
@@ -80,6 +80,20 @@ body{
 
 
 /*Publicidad contacto*/
+@media(max-width: 767px){
+  .contenido-publicidad {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+h2 {
+    margin-right: 0;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+}
+
 #publicidad{
     background-color: white;
     color: #0c0d16;
