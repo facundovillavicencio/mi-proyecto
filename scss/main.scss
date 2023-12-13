@@ -1,0 +1,262 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  // Body
+  body {
+    background-color: #1a1c2b;
+    color: white;
+  }
+  
+  // Menu
+  .navbar-brand{
+    font-family: 'Bebas Neue', sans-serif;
+  }
+  .btn-outline-success {
+    --bs-btn-color: black;
+    --bs-btn-hover-bg: #5599ff;
+    --bs-btn-border-color: #5599ff;
+  }
+  
+  // Titulo de tu imaginacion a la realidad
+  @keyframes moveText {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(100%);
+    }
+  }
+
+  #principal {
+    .card-body {
+      font-family: 'Bebas Neue', sans-serif;
+      text-align: center;
+      background: linear-gradient(#5599ff, #1a1c2b);
+      animation: moveText 5s linear infinite;
+    }
+    h1{
+        
+        font-family: 'Bebas Neue', sans-serif;
+          
+    }
+  }
+  
+  // Botones contacto home
+  #section-contacto {
+    padding: 50px;
+  
+    .boton-contacto {
+      padding: 50px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+  
+      button {
+        background-color: white;
+        color: black;
+  
+        &:hover {
+          background-color: #5599ff;
+          color: black;
+        }
+      }
+    }
+  }
+  
+  // Fotos home
+  .fotos-home {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    text-align: center;
+    margin: 10px;
+  
+    .foto {
+      width: 100%;
+  
+      img {
+        max-width: 100%;
+        height: auto;
+      }
+    }
+  
+    @media (max-width: 768px) {
+      grid-template-columns: 1fr;
+    }
+  }
+  
+  // Publicidad contacto
+  
+  #publicidad {
+    background: radial-gradient(#0c0d16,#5599ff,#1a1c2b);
+    color: white;
+  
+    .contenido-publicidad {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 100px;
+  
+      img {
+        width: 50px;
+      }
+  
+      h2 {
+        padding: 10px;
+      }
+    }
+  }
+  
+  // Footer
+  #footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px; 
+    color: #0c0d16;
+    background-color: white;
+    margin-top: 50px;
+  
+    p {
+      margin: 0;
+    }
+  
+    div {
+      display: flex;
+      align-items: center;
+    }
+  
+    a {
+      margin: 0 10px; /* Ajusta el margen entre los íconos*/
+      text-decoration: none;
+    }
+  
+    img {
+      width: 25px;
+    }
+  }
+  
+  // Page impresion
+  .impresion-titulo {
+    margin: 50px;
+  
+    h5 {
+      text-align: center;
+    }
+  }
+  
+  .creativo {
+    h2 {
+      text-align: center;
+      padding: 50px;
+    }
+  }
+  
+  .card-group {
+    .card {
+      img {
+        width: 100px;
+        height: auto;
+        margin: auto;
+      }
+  
+      &{
+        margin: 10px;
+      }
+    }
+  
+    #check {
+      .card-group {
+        background-color: #1a1c2b;
+        color: white;
+  
+        .card {
+          background-color: #1a1c2b;
+          color: white;
+        }
+      }
+    }
+  }
+  
+  // Video
+  .video {
+    text-align: center;
+    margin-top: 20px; /* Espaciado superior*/
+  }
+  
+  // Page impresoras
+  .principal-impresora {
+    margin: 50px;
+  
+    h5 {
+      text-align: center;
+    }
+  }
+  
+  // Formulario
+  .conta-cto {
+    .btn {
+      padding: 10px 20px;
+      font-size: 16px;
+      transition: transform 0.3s ease;
+  
+      &:hover {
+        transform: scale(1.1);
+      }
+    }
+  }
+
+  /*Imagenes productos*/
+  .card-img-top {
+    transition: transform 0.3s ease;
+  }
+  
+  .card-img-top:hover {
+    transform: scale(1.1); 
+  }
+
+  /*texto*/
+  .card-text{
+text-align: justify;
+  }
+
+  .card-body{
+    text-align: justify;
+  }
+
+/*Fuente titulo y texto*/
+a{
+    font-family: 'Bebas Neue', sans-serif; 
+}
+h2{
+    font-family: 'Bebas Neue', sans-serif; 
+}
+
+h5{
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+p{
+    font-family: 'Arimo', sans-serif;
+}
+
+.funko-tex{
+    font-family: 'Arimo', sans-serif; 
+}
+.mate-tex{
+    font-family: 'Arimo', sans-serif;
+}
+.figura-tex{
+    font-family: 'Arimo', sans-serif;
+}
+.impreso-filamento{
+    font-family: 'Arimo', sans-serif;
+}
+.impreso-resina{
+    font-family: 'Arimo', sans-serif;
+}
