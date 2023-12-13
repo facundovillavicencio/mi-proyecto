@@ -32,10 +32,13 @@ body {
   font-family: "Bebas Neue", sans-serif;
   text-align: center;
   background: linear-gradient(#5599ff, #1a1c2b);
-  animation: moveText 5s linear infinite;
+  overflow: hidden;
 }
 #principal h1 {
   font-family: "Bebas Neue", sans-serif;
+}
+#principal h2 {
+  animation: moveText 5s linear infinite;
 }
 
 #section-contacto {
