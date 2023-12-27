@@ -1,0 +1,28 @@
+#footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    color: #0c0d16;
+    background-color: white;
+    margin-top: 50px;
+  
+    p {
+      margin: 0;
+    }
+  
+    div {
+      display: flex;
+      align-items: center;
+    }
+  
+    a {
+      margin: 0 10px; /* Ajusta el margen entre los íconos*/
+      text-decoration: none;
+    }
+  
+    img {
+      width: 25px;
+    }
+  }

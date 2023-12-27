@@ -1,4 +1,39 @@
 @charset "UTF-8";
+.navbar-brand {
+  font-family: "Bebas Neue", sans-serif;
+}
+
+.btn-outline-success {
+  --bs-btn-color: black;
+  --bs-btn-hover-bg: #5599ff;
+  --bs-btn-border-color: #5599ff;
+}
+
+#footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  color: #0c0d16;
+  background-color: white;
+  margin-top: 50px;
+}
+#footer p {
+  margin: 0;
+}
+#footer div {
+  display: flex;
+  align-items: center;
+}
+#footer a {
+  margin: 0 10px; /* Ajusta el margen entre los íconos*/
+  text-decoration: none;
+}
+#footer img {
+  width: 25px;
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -8,16 +43,6 @@
 body {
   background-color: #1a1c2b;
   color: white;
-}
-
-.navbar-brand {
-  font-family: "Bebas Neue", sans-serif;
-}
-
-.btn-outline-success {
-  --bs-btn-color: black;
-  --bs-btn-hover-bg: #5599ff;
-  --bs-btn-border-color: #5599ff;
 }
 
 @keyframes moveText {
@@ -162,16 +187,15 @@ body {
   text-align: center;
 }
 
-.conta-cto .btn {
+.conta-cto {
   padding: 10px 20px;
   font-size: 16px;
   transition: transform 0.3s ease;
 }
-.conta-cto .btn:hover {
+.conta-cto:hover {
   transform: scale(1.1);
 }
 
-/*Imagenes productos*/
 .card-img-top {
   transition: transform 0.3s ease;
 }
@@ -180,7 +204,6 @@ body {
   transform: scale(1.1);
 }
 
-/*texto*/
 .card-text {
   text-align: justify;
 }
@@ -189,7 +212,6 @@ body {
   text-align: justify;
 }
 
-/*Fuente titulo y texto*/
 a {
   font-family: "Bebas Neue", sans-serif;
 }
